@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  /* border: 1px solid green; */
+}
+body{
+  margin: 0;
+}
+.navbar{
+  background-color: #F55A5A;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar h3{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+font-weight: 500;
+color:#F5F5F5
+}
+
+.cards{
+  border :1px solid #F55A5A;
+  width:500px;
+  height: 170px;
+  margin: auto;
+  display: flex;
+
+}
+
+.left-div{
+  width: 30%;
+}
+.left-div img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.right-div{
+  margin-left:20px;
+}
+.hero{
+  padding: 40px;
+}
