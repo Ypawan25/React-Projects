@@ -6,7 +6,7 @@ function App() {
     
     function addItem() {
         setThingsArray(prevState => {
-            return [...prevState, `Thing ${prevState.length + 1}`]
+            return [...prevState, `Thing ${prevState.length + 1}`]  // using spre operator to add new element in array
         })
     }
     
