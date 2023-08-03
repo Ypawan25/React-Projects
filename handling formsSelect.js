@@ -106,7 +106,7 @@ export default function Form() {
             <br />
             <select 
                 id="favColor"
-                value={formData.favColor}
+                value={formData.favColor}//some thing
                 onChange={handleChange}
                 name="favColor"
             >
